@@ -1,0 +1,17 @@
+TCG-VoxCPM2
+Copyright (c) 2026 NTUITIVE Pte Ltd. All rights reserved.
+Authors: Guoqiang Hu, Yizhou Peng, Changsong Liu, Yi-Wen Chao, Yuxi Wang, Yihao Wu, Mengjun Wu, Qianen Zhang,
+Chenyang Lyu, Eng Siong Chng (Nanyang Technological University; Alibaba-NTU Global e-Sustainability CorpLab,
+Nanyang Technological University; Alibaba Group)
+
+The code and model weights are licensed under the NTUITIVE Dual License Agreement (see LICENSE):
+non-commercial use only.
+
+Third-party components:
+The model weights are a fine-tuned version of the NVVSpeech Challenge Track-2 baseline
+(https://huggingface.co/NVVSpeech-Challenge/NVVSpeech-Challenge-Track2-Baseline, Apache-2.0),
+which is itself fine-tuned from VoxCPM2 (https://huggingface.co/openbmb/VoxCPM2, Apache-2.0).
+Modification (2026-11): continued training of all weights for 400 steps with a distilled tag-contrastive
+flow-matching target (see README). The Apache License 2.0 of these upstream models is reproduced in
+LICENSE-APACHE-2.0 in the model repository. Inference uses the voxcpm package (Apache-2.0) unchanged;
+it is installed from PyPI and not redistributed here.
